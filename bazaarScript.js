@@ -247,7 +247,7 @@ function updateList() {
 };
 
 function reload() {
-    let sec = 60;
+    let sec = 59;
     setInterval(function() {
       document.getElementById("timer").innerHTML = sec;
       sec--;
